@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Golis</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">設定</string>
+    <string name="finish">終了</string>
+<!--以下追加したもの-->
+    <string name="CategoryTitle">アプリケーション設定</string>
+    <string name="edit_text">https://www.google.com</string>
+    <string name="pref_dialog">接続先を入力</string>
+    <string name="setting_title">接続先</string>
+</resources>

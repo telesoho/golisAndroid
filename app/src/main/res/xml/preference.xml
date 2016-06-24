@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/CategoryTitle">
+        <EditTextPreference
+            android:defaultValue="@string/edit_text"
+            android:dialogTitle="@string/pref_dialog"
+            android:inputType="textUri"
+            android:key="settingtextbox"
+            android:title="@string/setting_title" />
+        <Preference
+            android:key="back"
+            android:title="戻る">
+            <!--メイン画面を呼び出す処理-->
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="jp.co.ucl.golis.MainActivity"
+                android:targetPackage="jp.co.ucl.golis" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
+<!--20160615追加-->

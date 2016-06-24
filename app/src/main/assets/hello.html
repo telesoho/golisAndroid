@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title data-i18n>HTML5test - How well does your browser support HTML5?</title>
+      <meta charset=UTF-8>
+      <meta name=viewport content=width=device-width, initial-scale=1.0>
+      <meta name=application-name content=HTML5test/>
+  </head>
+  <body>
+    <p>
+      <input type="button" value="scan barcode" onclick="scanBarcode()"/>
+      <label for="barcode">barcode:</label> <input type="text" id="barcode" value=""/>
+      <script type="text/javascript">
+        function scanBarcode()
+        {
+          Golis.scanBarcode();
+        }
+
+        function onReadBarcode(barcode) {
+          document.getElementById('barcode').value = barcode;
+        }
+      </script>
+    </p>
+  </body>
+</html>
